@@ -11,7 +11,7 @@ config-version: 5
 general:
   # The game prefix. Which will be used for command sending, Messaging
   # And Console usage. Use `&` for `§`
-  prefix: '§d[§eSkyWars§d] &a'
+  prefix: '§r§l§8[§r§bSkyCraft§r§l§8]§r §a>'
   # Join health for player when joining an arena.
   # If the health is greater than the player max health,
   # max health will be used instead.
