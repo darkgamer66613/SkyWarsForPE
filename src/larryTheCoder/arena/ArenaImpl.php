@@ -52,6 +52,7 @@ use pocketmine\Player;
 use pocketmine\plugin\Plugin;
 use pocketmine\Server;
 use pocketmine\tile\Chest;
+use pocketmine\item\Item;
 
 class ArenaImpl extends ArenaData {
 
