@@ -32,6 +32,7 @@ declare(strict_types = 1);
 namespace larryTheCoder\arena;
 
 use larryTheCoder\arena\api\Arena;
+use pocketmine\item\ItemFactory;
 use larryTheCoder\arena\api\CageManager;
 use larryTheCoder\arena\api\impl\ArenaListener;
 use larryTheCoder\arena\api\PlayerManager;
@@ -211,7 +212,7 @@ class ArenaImpl extends ArenaData {
 
 		if($this->getPlugin()->getKitManager() !== null){
 			$player->getInventory()->setItem(0, self::getKitSelector());
-			$player->getInventory()->setItem(3, 262);
+			$player->getInventory()->setItem(3, ItemFactory::get(262));
 		}
 	}
 
